@@ -12,8 +12,36 @@ This is an overview of the ER Call out Lifecycle. These pages will give you summ
 * Contact details
 * Group text
 
-# 2. You shift and responding
+## 2. You shift and responding
 
 * Preparing
+* Responding
+* Driving to your home base
 
-<!-- TODO finish -->
+## 3. Pre-departure checks
+
+* Checks
+* Alerting authority
+* Grab bags
+
+## 4. Arriving at the incident
+
+* Checking in
+* Meeting the service users
+* CALMER
+
+## 5. During the incident
+
+* Helping service suers
+* Services liaison
+* End goal
+
+## 6. Leaving and post call out
+
+* Driving back
+* Reporting and vehicle checks
+* Are you OK?
+
+The life cycle starts with you volunteering for shifts on the rota, and ends with your arrival back at your home base after a call out. This Playbook is something to dip into rather than trying to read it from cover to cover. It is especially useful to support you on your way to a call out and while you are involved at the incident.
+
+One overarching principle that should shape what you do whilst on duty and in work wear, is that you are representing the Red Cross, not yourself. In helping those in crisis, you are providing a Red Cross service.
