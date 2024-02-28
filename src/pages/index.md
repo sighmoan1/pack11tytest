@@ -1,57 +1,28 @@
 ---
-title: Welcome to Pack11ty!
+title: Crisis and Emergency Response Playbook
 nav:
   order: 1
   title: Home
 ---
 
-[Pack11ty]{.pack11ty} is an heavily opinionated [Eleventy](https://www.11ty.dev/) template project created by [Nicolas Hoizey](https://nicolas-hoizey.com/).
+# Values
 
-Feel free to use it, enhance it, and share your ideas/comments with [issues](https://github.com/nhoizey/pack11ty/issues/new/choose), or (even better) [pull requests](https://github.com/nhoizey/pack11ty/compare)!
+* Compassionate
+* Courageous
+* Inclusive
+* Dynamic
 
-If you want to try it and you're in a hurry, try one of these quick options to run [Pack11ty]{.pack11ty} for free:
+# How to use this document
 
-[Deploy to **Netlify**](https://app.netlify.com/start/deploy?repository=https://github.com/nhoizey/pack11ty&stack=cms){.button}{.netlify} [Deploy to **Vercel**](https://vercel.com/new/clone?repository-url=https://github.com/nhoizey/pack11ty){.button}{.vercel} [Deploy to **StackBlitz**](https://stackblitz.com/github/nhoizey/pack11ty){.button}{.stackblitz}
+The ER Playbook has been developed to act as a quick guide for volunteers for each stage of a deployment.
 
-There are multiple [options for installation/deployment](/documentation/installation/).
+The document is structured in 3 sections:
 
-# Key features
+1. Pocket checklist
+Short checklists to quickly scan through during the deployment at each stage, to remind us about the tasks to be carried out.
 
-## A plugin
+2. Phases of deployment
+A more detailed summary of each stage of the deployment. Designed for us to review on the way to a deployment to remind us of the tasks to be carried out.
 
-The [Pack11ty]{.pack11ty} plugin ([`eleventy-plugin-pack11ty`](https://github.com/nhoizey/eleventy-plugin-pack11ty)) provides many features out of the box, which you can enjoy on any Eleventy project:
-
-- **Collections** built automatically from root folders, with pagination for yearly and monthly archives
-- **Navigation** configuration
-- **JavaScript and Sass/CSS assets** optimized for performance
-  - inline critical JavaScript and CSS
-  - external and asynchronous additional JavaScript and CSS, with hashes for cache busting
-  - JavaScript, CSS and HTML built separately
-  - Dev mode with live reload
-- **Responsive images** built from simple Markdown and presets
-- **Enhanced Markdown** thanks to an extensive set of Markdown-it plugins for better contribution: footnotes, attributes, headings anchors, abbreviations, containers
-- A set of Eleventy **filters** and shortcodes are provided, including an enhanced `slugify`
-- A simple and responsible way to share YouTube **videos**
-
-## A template repository
-
-Additionnaly, the [Pack11ty]{.pack11ty} template repository ([`pack11ty`](https://github.com/nhoizey/pack11ty)) helps starting a new project from scratch with even more nice features:
-
-- **Responsive Layout** without any Media Query, thanks to CSS Flexible Box Layout (Flexbox) and layouts from Every Layout
-- A default configuration for responsive images
-- **PWA** for performance, installation and offline support
-  - Service Worker with pre-caching of UI assets, auto caching of visited pages and offline fallback
-  - Manifest for PWA installation
-- **Indieweb**
-  - Support for receiving Webmentions
-  - Atom feed for all collections combined
-- More default containers: `success`, `warning`, `error`
-- Etc.
-
-# Would you like to know more?
-
-Read [the full documentation](/documentation/)!
-
-# Do you have different needs?
-
-No problem, there are [many other Eleventy starters available](https://www.11ty.dev/docs/starter/).
+3. Background detail
+Further detail on different topics that we may find useful during a deployment, designed for us to read and revise in our own time, outside of a deployment
