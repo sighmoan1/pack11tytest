@@ -23,8 +23,8 @@ nav:
 * If service users are allowed back into the property: Is there anything you need to collect from your property?
 * If the fire service is going in on behalf of the service user, ask them to make a list of essentials they will want from their home
 * Have you got your phone and charger/money /any medication?
-* How urgently do you need these items (i.e do you take daily medication)
-* If the medication has been exposed to heat, inform the service user to confirm with a pharmacist whether it can still be taken
+* How urgently do you need these items (i.e do you take daily medication)?
+  * *If the medication has been exposed to heat, inform the service user to confirm with a pharmacist whether it can still be taken*
 * What documents and items do you have with you?
 * Do you have the means to collect/buy what you need?
 
