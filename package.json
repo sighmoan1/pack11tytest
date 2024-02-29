@@ -1,27 +1,24 @@
 {
-	"name": "pack11ty",
-	"version": "2.2.0",
-	"title": "Pack11ty",
-	"description": "an heavily opinionated Eleventy template project",
-	"homepage": "https://pack11ty.dev/",
+	"name": "erplaybook",
+	"version": "4.1.1",
+	"title": "ER Playbook",
+	"description": "A Playbook for BRC Emergency Response Volunteers",
+	"homepage": "https://github.com/sighmoan1/pack11tytest",
 	"author": {
-		"name": "Nicolas Hoizey",
-		"url": "https://nicolas-hoizey.com/",
-		"email": "nicolas@hoizey.com"
+		"name": "Simon Stewart",
+		"url": "https://github.com/sighmoan1/pack11tytest",
+		"email": "simonstewart@redcross.org.uk"
 	},
 	"keywords": [
-		"eleventy",
-		"starter",
-		"template",
-		"eleventy-website",
-		"eleventy-sample"
+		"BRC",
+		"eleventy"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nhoizey/pack11ty.git"
+		"url": "git+https://github.com/sighmoan1/pack11tytest.git"
 	},
 	"bugs": {
-		"url": "https://github.com/nhoizey/pack11ty/issues"
+		"url": "https://github.com/sighmoan1/pack11tytest/issues"
 	},
 	"license": "MIT",
 	"scripts": {
