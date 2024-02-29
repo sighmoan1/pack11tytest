@@ -9,8 +9,6 @@ CALMER is a key part of an ER volunteer skill set. The advice below will help yo
 
 ## Consider
 
-d
-
 ### What Consider means
 
 * The situational risk to yourself and others. Remember Six R's:
