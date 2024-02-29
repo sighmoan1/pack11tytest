@@ -8,6 +8,8 @@ nav:
 <!-- TODO find latest version -->
 <!-- TODO add image of plan and checklist -->
 
+![What next document](/images/what-next.png)
+
 This plan is designed to be used by the individuals that have been impacted by the incident. It is important they take responsibility for it an its completion. This plan is particularly useful when used with the “What Next” leaflet that many teams use. The guidelines below are for ER Volunteers who can, and do facilitate the creation of the plan.
 
 ## The benefits of the plan are
