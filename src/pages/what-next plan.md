@@ -6,7 +6,6 @@ nav:
 ---
 
 <!-- TODO find latest version -->
-<!-- TODO add image of plan and checklist -->
 
 ![What next document](/images/what-next.png)
 

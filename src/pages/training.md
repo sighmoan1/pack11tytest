@@ -28,7 +28,9 @@ The Welcome day provides all new starters an induction into the organisation and
 
 ### Professional Boundaries e-learning
 
-30 minutes e-learning
+30 minutes
+
+e-learning
 
 ## ER specific modules
 
