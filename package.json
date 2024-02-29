@@ -1,6 +1,6 @@
 {
-	"name": "erplaybook",
-	"version": "4.1.1",
+	"name": "pack11ty",
+	"version": "2.2.0",
 	"title": "ER Playbook",
 	"description": "A Playbook for BRC Emergency Response Volunteers",
 	"homepage": "https://github.com/sighmoan1/pack11tytest",
@@ -10,15 +10,18 @@
 		"email": "simonstewart@redcross.org.uk"
 	},
 	"keywords": [
-		"BRC",
-		"eleventy"
+		"eleventy",
+		"starter",
+		"template",
+		"eleventy-website",
+		"eleventy-sample"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sighmoan1/pack11tytest.git"
+		"url": "git+https://github.com/nhoizey/pack11ty.git"
 	},
 	"bugs": {
-		"url": "https://github.com/sighmoan1/pack11tytest/issues"
+		"url": "https://github.com/nhoizey/pack11ty/issues"
 	},
 	"license": "MIT",
 	"scripts": {
