@@ -37,6 +37,10 @@ The Lead Agency is the agency on scene that is responsible for coordinating the 
 * Signpost to the best organisation to support the service users
 * In collaboration, support getting the service users away from the incident and into a safe place.
 
-<!--TODO add images
 These are the type of Tabards you are most likely to see at an incident.  They identify the organisation and role of wearer.
+
+<!-- TODO - fix these links
+
+![People wearing tabards](../pages/images/tabard-1.png)
+![People wearing different tabards](../pages/images/tabard-2.png)
 -->
