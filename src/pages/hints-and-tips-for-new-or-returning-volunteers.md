@@ -5,7 +5,7 @@ nav:
   title: Hints
 ---
 
-
+![Heart made of faces](/images/heart.png)
 
 The following hints and tips are intended to help volunteers get the most from this ER Playbook. The list is not in any particular order although, if you do chose to follow the list below, it will ensure you get off to a good start:
 
