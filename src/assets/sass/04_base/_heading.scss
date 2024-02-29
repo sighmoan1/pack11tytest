@@ -47,3 +47,73 @@ h6 {
 		background-color: var(--theme-color);
 	}
 }
+
+details {
+	background-color: #f9f9f9;
+	/* Light grey background */
+	border: 1px solid #ddd;
+	/* Light grey border */
+	border-radius: 8px;
+	/* Rounded corners */
+	padding: 10px;
+	/* Some padding around the content */
+	margin-bottom: 10px;
+	/* Space between multiple details elements, if any */
+	width: 250px;
+	/* Fixed width */
+}
+
+summary {
+	font-size: 18px;
+	/* Larger font size for the summary/title */
+	font-weight: bold;
+	/* Make the summary/title bold */
+	cursor: pointer;
+	/* Change cursor to indicate it's clickable */
+	outline: none;
+	/* Remove the default outline to avoid a boxy look when focused */
+	padding: 5px;
+	/* Padding inside the summary */
+	list-style: none;
+	/* Remove the default list marker */
+}
+
+summary::-webkit-details-marker {
+	/* Hide the default arrow icon in Chrome */
+	display: none;
+}
+
+details[open] summary:before {
+	/* Custom open indicator */
+	content: '▼ ';
+	/* Add a down arrow before the summary text when open */
+}
+
+details:not([open]) summary:before {
+	/* Custom closed indicator */
+	content: '► ';
+	/* Add a right arrow before the summary text when closed */
+}
+
+/* Styling for the navigation menu links */
+nav a {
+	display: block;
+	/* Each link is a block, ensuring it takes up its own line */
+	padding: 5px 10px;
+	/* Padding around the links for easier clicking/tapping */
+	text-decoration: none;
+	/* Remove underlines from links */
+	color: #333;
+	/* Dark grey color for the text */
+	border-radius: 5px;
+	/* Rounded corners for the links */
+	transition: background-color 0.3s, color 0.3s;
+	/* Smooth transition for hover effects */
+}
+
+nav a:hover {
+	background-color: #ddd;
+	/* Light grey background on hover */
+	color: #000;
+	/* Black text on hover */
+}
