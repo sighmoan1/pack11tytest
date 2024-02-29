@@ -1,7 +1,5 @@
 ---
 title: Documentation
-nav:
-  order: 2
 ---
 
 # Usage

@@ -12,7 +12,7 @@ This is an overview of the ER Call out Lifecycle. These pages will give you summ
 * Contact details
 * Group text
 
-## 2. You shift and responding
+## 2. Your shift and responding
 
 * Preparing
 * Responding

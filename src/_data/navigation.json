@@ -1,13 +1,5 @@
 [
 	{
-		"name": "Home",
-		"url": "/"
-	},
-	{
-		"name": "News",
-		"url": "/news/"
-	},
-	{
 		"name": "Phases",
 		"url": "/phases/"
 	}
