@@ -17,7 +17,7 @@ CALMER is a key part of an ER volunteer skill set. The advice below will help yo
   * **Relaxation** – do something good for you.
   * **Relationships** – maintain supportive relationships.
   * **Refuelling** – eat while you are on a call out to maintain energy, it might be a long one.
-* Recreation – have hobbies and interests.
+  * **Recreation** – have hobbies and interests.
 * The resources you need.
 * Peoples unique needs, wishes and behaviours e.g. medication.
 
