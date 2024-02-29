@@ -2,7 +2,7 @@
 title:  Hints and Tips for New or Returning Volunteers
 nav:
   order: 5
-  title: Hints
+  title: Hints and Tips for New or Returning Volunteers
 ---
 
 ![Heart made of faces](/images/heart.png)
