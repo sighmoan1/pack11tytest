@@ -1,8 +1,8 @@
 ---
 title: Safeguarding
-nav:
-  order: 17
-  title: Safeguarding
+eleventyNavigation:
+  order: 9
+  key: Safeguarding
 ---
 
 Safeguarding is everyone’s responsibility.  You may be concerned about harm to another person because of something you have seen or heard, information you have been told by others or because someone has confided in you about things that are happening or have happened to them.  

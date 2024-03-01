@@ -1,9 +1,9 @@
-*-*
+---
 title: Engaging and building rapport
-nav:
-  order: 10
-  title: Engaging and building rapport
-***
+eleventyNavigation:
+  order: 4
+  key: Engaging and building rapport
+---
 
 When you first meet the individuals impacted by the incident, and you have been introduced, it is helpful to build rapport with them in order to be able to help.  
 

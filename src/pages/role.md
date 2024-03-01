@@ -1,11 +1,21 @@
 ---
-title:  Hints and Tips for New or Returning Volunteers
-nav:
-  order: 5
-  title: Hints and Tips for New or Returning Volunteers
+title: The Emergency Response Role
+eleventyNavigation:
+  order: 2
+  key: Role
 ---
 
-![Heart made of faces](/images/heart.png)
+As an ER volunteer working as part of a team, you'll provide much-needed help to people who have suddenly found themselves homeless or in need of support, following a fire or similar incident.  Equipped with a specially prepared vehicle, you'll support service users by providing practical help and emotional support.  In addition, you could be providing support to the emergency services as part of the BRC response to an incident.
+
+Typical tasks include:
+
+* Providing practical support to individuals such as shelter and refreshments, providing basic provisions and facilities, signposting to other organisations, supporting with the care of children and pets, and assisting with organising temporary accommodation.
+* Providing emotional support to distressed individuals.
+* Maintaining appropriate records.
+* Attending briefings and de-briefings.
+* Delivering the service in line with society standards.
+
+## Hints and tips for new and returning volunteers
 
 The following hints and tips are intended to help volunteers get the most from this ER Playbook. The list is not in any particular order although, if you do chose to follow the list below, it will ensure you get off to a good start:
 

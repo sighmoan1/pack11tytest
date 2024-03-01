@@ -26,33 +26,23 @@ header>* {
 }
 
 nav {
-	--gap: 0.5rem;
 
 	ul {
-		list-style-type: none;
-		padding: 0;
+		list-style: none;
+		text-decoration: none;
 	}
 
 	li {
 		flex-grow: 1;
-		text-align: center;
 		text-decoration: none;
+
 	}
 
 	a {
-		display: block;
-		padding: 0.5em 0.5em;
 		color: var(--theme-color);
-		background-color: white;
-		border: 2px solid black;
-		border-radius: 10px;
 		text-decoration: none;
 	}
 
-	.githubstars {
-		padding: 0.1em;
-		line-height: 1;
-	}
 
 	a:hover {
 		color: var(--theme-color);
@@ -68,7 +58,7 @@ nav {
 		}
 
 		a:hover {
-			text-decoration: none;
+			text-decoration: underline;
 		}
 	}
 

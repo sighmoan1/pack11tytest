@@ -1,8 +1,8 @@
 ---
 title: Training
-nav:
-  order: 18
-  title: Training
+eleventyNavigation:
+  order: 10
+  key: Training
 ---
 
 This chapter outlines the training required to fulfil the role of an ER Volunteer. There is a mixture of e-modules and workshops.

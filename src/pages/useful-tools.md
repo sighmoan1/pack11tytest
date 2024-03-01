@@ -1,8 +1,8 @@
 ---
 title: Useful tools
-nav:
+eleventyNavigation:
   order: 11
-  title: Useful tools
+  key: Useful tools
 ---
 
 These tools are very useful in helping Service users and in looking after yourself.

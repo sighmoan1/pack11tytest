@@ -1,8 +1,8 @@
 ---
 title: CALMER
-nav:
-  order: 15
-  title: CALMER
+eleventyNavigation:
+  order: 8
+  key: CALMER
 ---
 
 CALMER is a key part of an ER volunteer skill set. The advice below will help you build on your training and act as a reminder of how to go about specific ER related situations.

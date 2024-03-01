@@ -1,8 +1,8 @@
 ---
 title: Acronyms
-nav:
-  order: 19
-  title: Acronyms
+eleventyNavigation:
+  order: 14
+  key: Acronyms
 ---
 
 These are commonly used acronyms you will come across. You will pick them up over time.

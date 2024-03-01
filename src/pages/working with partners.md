@@ -1,8 +1,8 @@
 ---
 title: Working with our Partners
-nav:
+eleventyNavigation:
   order: 13
-  title: Working with our Partners
+  key: Working with our Partners
 ---
 
 Our partners will request the support of BRC ER following an assessment of the situation. These are some hints and tips that could help them, and others impacted by the emergency.

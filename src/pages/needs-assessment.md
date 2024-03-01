@@ -1,8 +1,8 @@
 ---
-title: Needs assessment prompt
-nav:
-  order: 19
-  title: Needs assessment prompt
+title: Needs assessment
+eleventyNavigation:
+  order: 5
+  key: Needs assessment
 ---
 
 ## Immediate needs

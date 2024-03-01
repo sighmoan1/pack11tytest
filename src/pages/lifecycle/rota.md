@@ -1,5 +1,9 @@
 ---
 title: 1. Rota and contact details
+eleventyNavigation:
+  order: 1
+  key: 1. Rota and contact detail
+  parent: Lifecycle
 ---
 
 * Volunteering

@@ -1,5 +1,9 @@
 ---
 title: 3. Pre-departure checks
+eleventyNavigation:
+  order: 3
+  key: 3. Pre-departure checks
+  parent: Lifecycle
 ---
 
 * Checks

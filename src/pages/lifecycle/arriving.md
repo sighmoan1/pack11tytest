@@ -1,5 +1,9 @@
 ---
 title: 4. Arriving at the incident
+eleventyNavigation:
+  order: 4
+  key: 4. Arriving at the incident
+  parent: Lifecycle
 ---
 
 * Checking in

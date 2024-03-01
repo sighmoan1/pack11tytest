@@ -1,5 +1,9 @@
 ---
 title: 2. Your shift and responding
+eleventyNavigation:
+  order: 2
+  key: 2. Your shift and responding
+  parent: Lifecycle
 ---
 
 * Preparing

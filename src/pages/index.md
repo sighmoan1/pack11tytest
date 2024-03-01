@@ -1,9 +1,10 @@
 ---
 title: Crisis and Emergency Response Playbook
-nav:
+eleventyNavigation:
   order: 1
-  title: Home
+  key: Home
 ---
+
 ![Red cross flag](/images/flag.png)
 ***Compassionate*** ***Courageous*** ***Inclusive*** ***Dynamic***
 

@@ -1,5 +1,9 @@
 ---
 title: 5. During the incident
+eleventyNavigation:
+  order: 5
+  key: 5. During the incident
+  parent: Lifecycle
 ---
 
 * Helping Service Users

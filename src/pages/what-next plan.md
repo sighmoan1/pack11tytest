@@ -1,8 +1,8 @@
 ---
 title: What-next plan
-nav:
-  order: 9
-  title: What-next plan
+eleventyNavigation:
+  order: 12
+  key: What-next plan
 ---
 
 <!-- TODO find latest version -->

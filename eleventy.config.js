@@ -2,8 +2,12 @@ const glob = require('fast-glob');
 const path = require('node:path');
 
 const isProd = process.env.NODE_ENV === 'production';
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
+
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
 	// ------------------------------------------------------------------------
 	// Shortcodes
 	// ------------------------------------------------------------------------

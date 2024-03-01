@@ -1,5 +1,9 @@
 ---
 title: 6. Leaving and post call out
+eleventyNavigation:
+  order: 6
+  key: 6. Leaving and post call out
+  parent: Lifecycle
 ---
 
 * Driving back
