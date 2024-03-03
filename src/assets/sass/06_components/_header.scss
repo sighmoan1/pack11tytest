@@ -45,21 +45,15 @@ nav {
 
 
 	a:hover {
-		color: var(--theme-color);
-		background-color: var(--theme-color-contrast);
-		border-color: var(--theme-color);
+		text-decoration: underline;
 	}
 
 	.current {
 		a {
-			color: var(--theme-color-contrast);
-			background-color: var(--theme-color);
 			border-color: var(--theme-color);
+			font-weight: bold;
 		}
 
-		a:hover {
-			text-decoration: underline;
-		}
 	}
 
 	.offline {

@@ -5,6 +5,17 @@ eleventyNavigation:
   key: Needs assessment
 ---
 
+## Page contents
+
+1. [Immediate needs](#immediate-needs)
+2. [Health](#health)
+3. [Basic supplies from household](#basic-supplies-from-household)
+4. [Shelter and accommodation](#shelter-and-accommodation)
+5. [Insurance information](#insurance-information)
+6. [Other needs](#other-needs)
+7. [Emotional and psychological support](#emotional-and-psychological-support)
+8. [Information and awareness](#information-and-awareness)
+
 ## Immediate needs
 
 * How can we help?
@@ -28,7 +39,7 @@ eleventyNavigation:
 * What documents and items do you have with you?
 * Do you have the means to collect/buy what you need?
 
-## Shelter and Accommodation
+## Shelter and accommodation
 
 * Have you been told when you can return to your property?
 * If at rest centre, have you registered with the local council?
@@ -37,7 +48,7 @@ eleventyNavigation:
 * Do all the people staying within your household have a place to stay tonight?
 * If they have pets: Do you have a place to shelter your pets or do we need to find shelter for them? ￼
 
-## Insurance Information
+## Insurance information
 
 * Do you have housing insurance?
 * Do you know your insurance provider and how to contact them?
@@ -49,7 +60,7 @@ eleventyNavigation:
 * Is there anyone you need to call?
 * Is there any organisation/ facility you would like us to help you get in touch with
 
-## Emotional and Psychological support
+## Emotional and psychological support
 
 * Are there any support services or counselling that may be helpful?
 * Be mindful of any signs of forms of abuse, isolation etc from them or any other family members

@@ -8,6 +8,13 @@ eleventyNavigation:
 ![Red cross flag](/images/flag.png)
 ***Compassionate*** ***Courageous*** ***Inclusive*** ***Dynamic***
 
+## Page contents
+
+1. [Background](#background)
+2. [How to use this document](#how-to-use-this-document)
+3. [BRC Seven Fundamental Principles and the ER role](#brc-seven-fundamental-principles-and-the-er-role)
+4. [Recognition](#recognition)
+
 ## Background
 
 Welcome to the Crisis and Emergency Response Playbook.

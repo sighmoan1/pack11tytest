@@ -7,7 +7,7 @@ eleventyNavigation:
 
 Sometimes a call out may affect you. When it does, it can be good to talk about it, especially with someone who understands the feelings that you may be experiencing. To that end, we have listed the people who would be in a good position to help, simply if you just wanted to chat or if you feel the situation had a significant impact on you.
 
-## Fellow Volunteers, group leaders and debriefs
+## Fellow volunteers, group leaders and debriefs
 
 Chat on the way back from a call out. You can also call a volunteer who you feel would be in a good position to listen at a later date.
 
