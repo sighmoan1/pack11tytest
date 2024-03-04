@@ -15,7 +15,7 @@ enable();
 // https://developer.chrome.com/docs/workbox/modules/workbox-recipes/#page-cache
 pageCache({
 	networkTimoutSeconds: 2,
-	warmCache: ['/', '/documentation/', '/news/', '/offline/'],
+	warmCache: ['/', '/documentation/', '/offline/', '/emergencies','/images/', '/lifecycle'],
 });
 
 // Serve static assets from immediately from cache, and update (aka "Stale While Revalidate")
