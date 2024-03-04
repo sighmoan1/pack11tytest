@@ -6,9 +6,18 @@ eleventyNavigation:
   parent: Lifecycle
 ---
 
-* Checks
-* Alerting Authority
-* Grab bags
+
+## Lifecycle
+
+1. [Rota and contact details](/lifecycle/1-rota-and-contact-details/)
+2. [Your shift and responding](/lifecycle/2-your-shift-and-responding/)
+3. <strong>[Pre-departure checks](/lifecycle/3-pre-departure-checks/)</strong>
+    * Checks
+    * Alerting Authority
+    * Grab bags
+4. [Arriving at the incident](/lifecycle/4-arriving-at-the-incident)
+5. [During the incident](/lifecycle/5-during-the-incident)
+6. [Leaving and post call-out](/lifecycle/6-leaving-and-post-call-out/)
 
 ## Description
 

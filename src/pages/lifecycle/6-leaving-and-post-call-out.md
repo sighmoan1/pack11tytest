@@ -6,9 +6,18 @@ eleventyNavigation:
   parent: Lifecycle
 ---
 
-* Driving back
-* Reporting and vehicle
-* Are you OK?
+
+## Lifecycle
+
+1. [Rota and contact details](/lifecycle/1-rota-and-contact-details/)
+2. [Your shift and responding](/lifecycle/2-your-shift-and-responding/)
+3. [Pre-departure checks](/lifecycle/3-pre-departure-checks/)
+4. [Arriving at the incident](/lifecycle/4-arriving-at-the-incident)
+5. [During the incident](/lifecycle/5-during-the-incident)
+6. <strong>[Leaving and post call-out](/lifecycle/6-leaving-and-post-call-out/)</strong>
+    * Driving back
+    * Reporting and vehicle
+    * Are you OK?
 
 ## Description
 

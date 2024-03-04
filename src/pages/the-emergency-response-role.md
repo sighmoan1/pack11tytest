@@ -2,7 +2,7 @@
 title: The Emergency Response Role
 eleventyNavigation:
   order: 2
-  key: Role
+  key: The Emergency Response Role
 ---
 
 As an ER volunteer working as part of a team, you'll provide much-needed help to people who have suddenly found themselves homeless or in need of support, following a fire or similar incident.  Equipped with a specially prepared vehicle, you'll support service users by providing practical help and emotional support.  In addition, you could be providing support to the emergency services as part of the BRC response to an incident.
@@ -25,8 +25,8 @@ The following hints and tips are intended to help volunteers get the most from t
 * Don’t run before you can walk. The help we give can be stressful in some situations, when you have been trained, team up on the schedule with experienced volunteers.
 * Regularly dip into this Playbook and take it along to your training sessions to put your training in context of the operational aspects of a call out.
 * Discuss the pages below, when you leave your home base, en-route to the call out with your crew mate to form an outline of a plan of what you are going to do:
-  * [When arriving at the incident](../../phases/arriving)
-  * [During the incident](../../phases/during)
+  * [When arriving at the incident](/lifcycle/4-arriving-at-the-incident)
+  * [During the incident](/lifecycle/5-during-the-incident)
 * If you are not sure about anything then ask as everyone is here to help you. No one will know you need help unless you ask.
 * Be very careful of giving advice or doing too much yourself. The goal is to assist those in crisis to a point where they have a plan and are capable and willing to take control of the situation, not to show how knowledgeable you are.
 * Arrive at the call out in a calm and professional way so that those who rely on you feel that you are confident. In turn, this will give them confidence in their ability to handle the situation.

@@ -23,9 +23,6 @@
                       <a href="/">Emergency response volunteer playbook</a>
                     </p>
                   {% endif %}
-                <div>
-                  {% include "components/navigation.njk" %}
-                </div>
                 </div>
               </div>
             </header>
@@ -33,6 +30,9 @@
           </div>
           <div class="not-sidebar">
             <main role="main">
+                <div>
+                  {% include "components/navigation.njk" %}
+                </div>
               {% block content %}
                 {{ content | safe }}
               {% endblock %}
