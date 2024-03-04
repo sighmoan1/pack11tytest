@@ -28,11 +28,10 @@
 		"clean": "rimraf _site",
 		"build:eleventy": "eleventy",
 		"watch:eleventy": "eleventy --serve --port=8090",
-		"generate:precacheManifest": "node generatePrecacheManifest.js",
 		"build:serviceworker": "workbox injectManifest workbox.config.js",
-		"start": "npm-run-all --sequential clean build:eleventy generate:precacheManifest build:serviceworker watch:eleventy",
+		"start": "npm-run-all --sequential clean watch:eleventy",
 		"start:debug": "DEBUG=Eleventy* npm start",
-		"build": "npm-run-all --sequential clean build:eleventy generate:precacheManifest build:serviceworker",
+		"build": "npm-run-all --sequential clean build:eleventy build:serviceworker",
 		"build:debug": "DEBUG=Eleventy* npm run build"
 	},
 	"devDependencies": {
