@@ -11,7 +11,11 @@
 </li>
 {%- endmacro %}
 
+
+<details>
+<summary>Menu</summary>
 <ul>
 {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 </ul>
+</details>
 </nav>
