@@ -35,3 +35,10 @@ Incorporating *Emergency Management Procedures*.
 **Last Updated**: December 2021
 **Next Review**: December 2022
 **Audience**: All our people, particularly relevant to staff involved in any UK emergency response activities
+
+### Document provenance
+
+|Date endorsed| Category| Summarise changes made| Reason for changes| Consulted| Changes endorsed by|
+|---|---|---|---|---|---|
+|404/2022| Scheduled Review| New major incident planning procedure, incident logging procedure, stand down procedure. Updated command and control, CRV activation procedure, corporate partnerships and non-financial support procedure, Tesco activation agreement and lone responding procedure. Edited language use throughout including removal of reference to ‘Gold’ ‘Silver’‘Bronze’ except at the beginning, removal of resource management section.| Reflects best practice, lessons learned and changes since covid-19 pandemic.| NERG, Crisis Response Team, Crisis Response Improvement Team.| NERG|
+|4/04/2022| Scheduled Review| Operational Manager definition added to glossary, role of operational team leader.| Reflects best practice, lessons learned and changes since covid-19 pandemic.| NERG, Crisis Response Team, Crisis Response Improvement Team.|NERG|
