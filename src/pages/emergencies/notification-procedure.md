@@ -6,6 +6,23 @@ eleventyNavigation:
   parent: UK emergencies guidance
 ---
 
+## UKEG Roadmap
+
+This is an overview of the emergency management procedures and processes that inform British Red Cross response.
+
+1. [Command and control structure](/emergencies/command-and-control-structure/)
+2. <strong>[Notification procedure](/emergencies/notification-procedure/)</strong>
+3. [Anti-human trafficking](/emergencies/anti-human-trafficking/)
+4. [Resourcing an incident](/emergencies/resourcing-an-incident/)
+5. [Briefing](/emergencies/briefing)
+6. [Managing an incident](/emergencies/managing-an-incident/)
+7. [Record management](/emergencies/record-management/)
+8. [Major incident planning](/emergencies/major-incident-planning/)
+9. [Donations](/emergencies/donations/)
+10. [Debriefing](/emergencies/debriefing/)
+11. [Cost recovery](/emergencies/cost-recovery/)
+12. [Critical incident](/emergencies/critical-incident)
+
 This summary provides detail on how and when to notify the national crisis response (CR Team) team of an incident.
 
 When an Area responds to an incident that meets any of the criteria below, UK CR Team should be notified by calling the 24/7 on-call number: [0115 965 8558](tel:01159658558) This notification procedure applies across all services and should be followed where normal service delivery escalates above and beyond our business as usual work. The following list provides a non-exhaustive range of notification criteria:

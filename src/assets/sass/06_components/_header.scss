@@ -1,5 +1,32 @@
 header>* {
 	align-items: baseline;
+
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 100; // Ensure it's above other content
+
+	details {
+		position: relative; // Anchor for the dropdown
+	}
+
+	summary {
+		cursor: pointer;
+	}
+
+	ul {
+		position: absolute;
+		background-color: #fff; // Or any color fitting your design
+		width: 100%; // Or adjust as needed
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); // Optional: for dropdown shadow
+		z-index: 101; // Ensure it's above the sticky navbar itself
+	}
+
+	li {
+		list-style-type: none;
+	}
 }
 
 .sitelogo-parent {

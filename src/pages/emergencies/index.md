@@ -9,18 +9,18 @@ eleventyNavigation:
 
 This is an overview of the emergency management procedures and processes that inform British Red Cross response.
 
-1. [Command and control structure](./command-and-control-structure/)
-2. [Notification procedure](./notification-procedure/)
-3. [Anti-human trafficking](./anti-human-trafficking/)
-4. [Resourcing an incident](./resourcing-an-incident/)
-5. [Briefing](./briefing)
-6. [Managing an incident](./managing-an-incident/)
-7. [Record management](./record-management/)
-8. [Major incident planning](./major-incident-planning/)
-9. [Donations](./donations/)
-10. [Debriefing](./debriefing/)
-11. [Cost recovery](./cost-recovery/)
-12. [Critical incident](./critical-incident)
+1. [Command and control structure](/emergencies/command-and-control-structure/)
+2. [Notification procedure](/emergencies/notification-procedure/)
+3. [Anti-human trafficking](/emergencies/anti-human-trafficking/)
+4. [Resourcing an incident](/emergencies/resourcing-an-incident/)
+5. [Briefing](/emergencies/briefing)
+6. [Managing an incident](/emergencies/managing-an-incident/)
+7. [Record management](/emergencies/record-management/)
+8. [Major incident planning](/emergencies/major-incident-planning/)
+9. [Donations](/emergencies/donations/)
+10. [Debriefing](/emergencies/debriefing/)
+11. [Cost recovery](/emergencies/cost-recovery/)
+12. [Critical incident](/emergencies/critical-incident)
 
 ## Introduction
 
