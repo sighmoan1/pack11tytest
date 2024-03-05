@@ -37,7 +37,7 @@ One overarching principle that should shape what you do whilst on duty and in wo
 
 [5. During the incident](./5-during-the-incident)
 
-* Helping service suers
+* Helping service users
 * Services liaison
 * End goal
 
