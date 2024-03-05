@@ -31,7 +31,6 @@
 		"generate-urls": "node generate-urls.js",
 		"prebuild:serviceworker": "npm run generate-urls",
 		"build:serviceworker": "workbox injectManifest workbox.config.js",
-		"build:serviceworker": "workbox injectManifest workbox.config.js",
 		"start": "npm-run-all --sequential clean watch:eleventy",
 		"start:debug": "DEBUG=Eleventy* npm start",
 		"build": "npm-run-all --sequential clean build:eleventy build:serviceworker",
