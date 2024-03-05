@@ -1,3 +1,4 @@
+
 import {
 	offlineFallback,
 	pageCache,
@@ -6,30 +7,21 @@ import {
 } from 'workbox-recipes';
 
 // Enable navigation preload
-// https://web.dev/navigation-preload/
-// https://hachyderm.io/@jeffposnick/110466221983186607
 import { enable } from 'workbox-navigation-preload';
 enable();
 
 // Serve pages as network first, with 2 seconds timeout and cache fallback
-// https://developer.chrome.com/docs/workbox/modules/workbox-recipes/#page-cache
 pageCache({
 	networkTimoutSeconds: 2,
-	warmCache: ['/', '/documentation/', '/offline/', '/emergencies','/images/', '/lifecycle'],
+	warmCache: ['/', '/documentation/', '/offline/', '/emergencies','/images/', '/lifecycle', '/acronyms/', '/calmer/', '/difficult-situations/', '/documentation/assets/', '/documentation/collections/', '/documentation/configuration/', '/documentation/content/', '/documentation/development/', '/documentation/filters/', '/documentation/', '/documentation/installation/', '/documentation/layout/', '/documentation/navigation/', '/documentation/old_readme/', '/documentation/pwa/', '/documentation/responsive-images/', '/documentation/videos/', '/emergencies/anti-human-trafficking/', '/emergencies/briefing/', '/emergencies/command-and-control-structure/', '/emergencies/cost-recovery/', '/emergencies/critical-incident/', '/emergencies/debriefing/', '/emergencies/donations/', '/emergencies/glossary-and-acronyms/', '/emergencies/', '/emergencies/major-incident-planning/', '/emergencies/managing-an-incident/', '/emergencies/notification-procedure/', '/emergencies/record-management/', '/emergencies/resourcing-an-incident/', '/engaging-and-building-rapport/', '/help-for-you-after-a-response/', '/', '/lifecycle/1-rota-and-contact-details/', '/lifecycle/2-your-shift-and-responding/', '/lifecycle/3-pre-departure-checks/', '/lifecycle/4-arriving-at-the-incident/', '/lifecycle/5-during-the-incident/', '/lifecycle/6-leaving-and-post-call-out/', '/lifecycle/', '/needs-assessment/', '/offline/', '/safeguarding/', '/the-emergency-response-role/', '/training/', '/useful-tools/', '/what-next plan/', '/working with partners/'],
 });
 
 // Serve static assets from immediately from cache, and update (aka "Stale While Revalidate")
-// https://developer.chrome.com/docs/workbox/modules/workbox-recipes/#static-resources-cache
-//
-// Also precache static assets with hashes in filenames
-// See the "serviceworker" npm script and "workbox.config.js" configuration
-// https://developer.chrome.com/docs/workbox/precaching-with-workbox/#precaching-with-injectmanifest
 staticResourceCache({
 	warmCache: self.__WB_MANIFEST,
 });
 
-// Cache a maximum of 100 images, for 90 days each at most
-// https://developer.chrome.com/docs/workbox/modules/workbox-recipes/#image-cache
+// Cache a maximum of 100 images, for 90 days each at most
 imageCache({
 	maxEntries: 100,
 	maxAgeSeconds: 60 * 60 * 24 * 90,
@@ -37,7 +29,6 @@ imageCache({
 });
 
 // Provide offline fallbacks for HTML and images
-// https://developer.chrome.com/docs/workbox/modules/workbox-recipes/#offline-fallback
 offlineFallback({
 	pageFallback: '/offline/fallback.html',
 	imageFallback: '/offline/fallback.svg',
