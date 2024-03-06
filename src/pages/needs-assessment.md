@@ -4,70 +4,56 @@ eleventyNavigation:
   order: 5
   key: Needs assessment
 ---
+## Identifying people's needs at an incident
 
-## Page contents
+Use the following prompts to check what people might need help with. Use your training and experience to select the appropriate questions.
 
-1. [Immediate needs](#immediate-needs)
-2. [Health](#health)
-3. [Basic supplies from household](#basic-supplies-from-household)
-4. [Shelter and accommodation](#shelter-and-accommodation)
-5. [Insurance information](#insurance-information)
-6. [Other needs](#other-needs)
-7. [Emotional and psychological support](#emotional-and-psychological-support)
-8. [Information and awareness](#information-and-awareness)
+### Do you need help urgently?
 
-## Immediate needs
+* Is anyone from your household missing?
+* Does anyone from your household need assistance?
+* What's the most important thing we can do to help right now?
 
-* How can we help?
-* Are all the members of your household, here and are they safe?
-* How many people from your house are here? How many need some assistance?
-* What are the most important things for us to focus on right now in helping you in this moment?
-* Do you need water/food/clothing immediately?
+### What about medical help?
 
-## Health
+* Does anyone from your household need assistance?
+* What's the most important thing we can do to help right now?
 
-* Do you have any medical concerns that need attention now?
-* Does anyone else in your household have any medical concerns that need any attention?
+### Do you have all your essential belongings?
 
-## Basic supplies from household
+* What documents and items do you have with you?  For example do you have your phone, your charger, money and medication?
+* Is there anything you need to collect from your property?
+* How urgently do you need these items? Do you take daily medication?
+* Make a list of essentials you'd want to have collected if the fire brigade can go into your home.
+* If medication has been exposed to heat, you should confirm with a pharmacist whether it can still be used.
+* If you haven't got something essential, will you be able to buy or get a replacement?
 
-* If service users are allowed back into the property: Is there anything you need to collect from your property?
-* If the fire service is going in on behalf of the service user, ask them to make a list of essentials they will want from their home
-* Have you got your phone and charger/money /any medication?
-* How urgently do you need these items (i.e do you take daily medication)?
-  * *If the medication has been exposed to heat, inform the service user to confirm with a pharmacist whether it can still be taken*
-* What documents and items do you have with you?
-* Do you have the means to collect/buy what you need?
+### Where are you going to stay?
 
-## Shelter and accommodation
+* Have you been told when you can return to your property?  
+* Do you and all the people from your household have a place to stay tonight?
+* If you're going to stay at a rest centre, have you registered with the local council?  
+* Have you got anyone you can call for support for tonight?  
+* Who is going to look after your pets?
 
-* Have you been told when you can return to your property?
-* If at rest centre, have you registered with the local council?
-* Have you got anyone you can call for support for tonight?
-* Have you got anywhere to stay tonight?
-* Do all the people staying within your household have a place to stay tonight?
-* If they have pets: Do you have a place to shelter your pets or do we need to find shelter for them? ￼
-
-## Insurance information
+### Do you need help with insurance?
 
 * Do you have housing insurance?
 * Do you know your insurance provider and how to contact them?
 * If you don’t have insurance, have you considered contacting your local authority who can offer support in these circumstances?
 
-## Other needs
+### Are you prepared for tomorrow and the next few days?  
 
-* Will you be okay for childcare/school uniform/school lunch money?
-* Is there anyone you need to call?
-* Is there any organisation/ facility you would like us to help you get in touch with
+* Will you be okay for childcare, school uniforms or school lunch money?  
+* Is there anyone you need to call?  
+* Is there any organisation or facility you would like us to help you get in touch with?
 
-## Emotional and psychological support
+### How are you feeling in yourself?
 
-* Are there any support services or counselling that may be helpful?
-* Be mindful of any signs of forms of abuse, isolation etc from them or any other family members
+* Are there any support services or counselling that may be helpful?  
+* Are you worried about anyone's physical or mental health or safety?
 
-## Information and awareness
+### Further help
 
 * Is there any additional information that you need?
-* Are they any organisations you would like to get more information about, or get their contacts
-* Share the "What next booklet" for more information
-* Share the feedback card with the NSL number
+* Would you like our leaflet and feedback card?
