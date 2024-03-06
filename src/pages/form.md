@@ -48,7 +48,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var formData = new FormData(form);
     var object = {};
     formData.forEach(function(value, key) {
-      object[key] = value;
+      // Parse the "Rating" as a number
+      if (key === 'Rating') {
+        object[key] = parseInt(value, 10); // Ensure "Rating" is a number
+      } else {
+        object[key] = value;
+      }
     });
     var json = JSON.stringify(object);
 
@@ -70,4 +75,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
 </script>
