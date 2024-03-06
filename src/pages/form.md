@@ -11,7 +11,10 @@ eleventyNavigation:
   
   <label for="last_name">Last name:</label><br>
   <input type="text" id="last_name" name="last_name" value=""><br>
-  
+
+  <label for="Rating">Rating 0-5</label><br>
+  <input type="number" id="Rating" name="Rating" min="0" max="5"><br>
+
   <label for="feedback">Feedback:</label><br>
   <textarea id="feedback" name="Feedback"></textarea><br><br>
   
@@ -22,8 +25,26 @@ eleventyNavigation:
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var form = document.querySelector('form');
+
+  // Function to check if the rating is within the allowed range
+  function validateRating() {
+    var ratingInput = document.getElementById('Rating');
+    var rating = ratingInput.value;
+    if (rating < 0 || rating > 5) {
+      document.getElementById('message').textContent = 'Rating must be between 0 and 5!';
+      return false;
+    }
+    return true;
+  }
+
   form.addEventListener('submit', function(e) {
-    e.preventDefault();
+    e.preventDefault(); // Prevent form from submitting immediately
+
+    // Perform validation before proceeding
+    if (!validateRating()) {
+      return; // If validation fails, stop here
+    }
+
     var formData = new FormData(form);
     var object = {};
     formData.forEach(function(value, key) {
@@ -41,13 +62,11 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(response => response.json())
     .then(data => {
       console.log('Success:', data);
-      // Handle success here
- document.getElementById('message').textContent = 'Form submitted successfully!';
+      document.getElementById('message').textContent = 'Form submitted successfully!';
     })
     .catch((error) => {
       console.error('Error:', error);
-      // Handle error here
-  document.getElementById('message').textContent = 'An error occurred!';
+      document.getElementById('message').textContent = 'An error occurred!';
     });
   });
 });
