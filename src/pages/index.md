@@ -81,7 +81,7 @@ The content of this Playbook was updated and improved during 2017 and 2021 via a
 | Martin Thornber    | Devon, Cornwall and Channel Islands |                                      |
 | Carney Bonner      | Thames Valley, Dorset and Wiltshire |                                   |
 | Lorna Sokolowski   | Thames valley                   |                                          |
-| Debbie Carrig      | Deon & Cornwall                 |                                          |
+| Debbie Carrig      | Devon & Cornwall                 |                                          |
 
 ### ER volunteers
 

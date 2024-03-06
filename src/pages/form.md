@@ -6,6 +6,7 @@ eleventyNavigation:
 ---
 <!--TODO Datetime stamp submissions-->
 <form action="https://prod-108.westeurope.logic.azure.com:443/workflows/c296b810b382468781b05661b6ee5e85/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=DoYjm5bGluWK0Ov-3PSzJOZtEEMpmqZAjPaFhm0IH6I" method="post">
+
   <label for="first_name">First name:</label><br>
   <input type="text" id="first_name" name="first_name" value=""><br>
   
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
     return true;
   }
 
+  // Form submission
   form.addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent form from submitting immediately
 

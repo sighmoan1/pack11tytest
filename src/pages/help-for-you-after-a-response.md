@@ -20,7 +20,7 @@ Is there for you. They are trained to be discrete, understanding and they have t
 This is totally confidential and independent service provided by external specialists. It is available 24/7, 365 days a year and they can provide support over the phone or ways. They can also provide advice on civil matters too. Just call their number below or log in on their website:
 
 * 0800 030 5182 or when calling from abroad +44 161 836 9498 (calls will be charged)
-* Their website is [www.healthassuredeap.com]  (Username: BRC Password: BRC)
+* Their website is [www.healthassuredeap.com]  (Username: REDACTED Password: REDACTED)
 * Add a hyperlink to assemble resources
 
 ## Someone you trust
