@@ -1,5 +1,6 @@
 // ITCSS Layer 1: Settings (global variables, config switches)
 @import '01_settings/global_custom_properties';
+@import '01_settings/colours.scss';
 
 // ITCSS Layer 2: Tools (default mixins and functions)
 @import '02_tools/functions';
