@@ -16,3 +16,13 @@ img.logo {
 	display: block;
 	margin: var(--gap) auto;
 }
+
+@media (max-width: 600px) {
+	.logo-svg {
+	padding-right: 4rem;
+	}
+  
+	.sitelogo-parent {
+	  text-align: center; /* Optional: Center the logo */
+	}
+  }
