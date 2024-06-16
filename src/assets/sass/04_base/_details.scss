@@ -39,9 +39,10 @@ details > div {
 
 // Custom bullet points for unordered lists inside <details>
 details ul {
-   margin-top: 1rem;
-margin-bottom: 1rem;
-  padding-left: 1.5rem;
+  margin: 1rem 3rem 1rem 0rem;
+  padding-left: 1rem;
+  text-indent: -1rem;
+  list-style-position: outside;
 
   li {
     margin-bottom: 0.5rem;
