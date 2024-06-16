@@ -1,9 +1,6 @@
 ---
 title: How to respond safely and effectively to an emergency
 layout: homepage.njk
-nav:
-  order: 1
-  title: Home
 ---
 
 This refresher guidance is for volunteers and staff to use before or during deployment.

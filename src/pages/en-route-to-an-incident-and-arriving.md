@@ -1,7 +1,9 @@
 ---
 title: "En route to an incident and arriving"
+order: 4
+tags: playbook
 nav:
-  order: 5
+  order: 4
 ---
 
 1. Check for updates and possible STAND DOWN instruction from CRCC.

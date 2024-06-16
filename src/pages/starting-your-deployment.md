@@ -1,7 +1,9 @@
 ---
 title: Starting your deployment
+order: 2
+tags: playbook
 nav:
-  order: 3
+  order: 2
 ---
 
 ## When you get a 'STANDBY' request from CRCC

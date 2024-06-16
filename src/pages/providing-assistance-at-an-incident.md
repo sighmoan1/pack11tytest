@@ -1,7 +1,9 @@
 ---
 title: Providing assistance at an incident
+order: 5
+tags: playbook
 nav:
-  order: 6
+  order: 5
 ---
 
 1. Remember your aim is to help service users come to terms with the crisis and start to take control of their own situation.

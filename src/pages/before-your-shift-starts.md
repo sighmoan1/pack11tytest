@@ -1,7 +1,9 @@
 ---
 title: Before your shift starts
+order: 1
+tags: playbook
 nav:
-  order: 2
+  order: 1
 ---
 
 Consider whether you're in the right physical and mental shape to respond. If you've been drinking alcohol, taking new or strong medication or are not feeling up to it, tell your team you're not available.

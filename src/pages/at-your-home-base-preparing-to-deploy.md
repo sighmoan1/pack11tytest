@@ -1,7 +1,9 @@
 ---
 title: "At your home base: preparing to deploy"
+order: 3
+tags: playbook
 nav:
-  order: 4
+  order: 3
 ---
 
 1. Pay attention to other vehicles when you arrive and park where your vehicle will not obstruct others.

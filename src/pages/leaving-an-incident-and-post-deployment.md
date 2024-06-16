@@ -1,7 +1,9 @@
 ---
 title: Leaving an incident and post-deployment
+order: 7
+tags: playbook
 nav:
-  order: 8
+  order: 7
 ---
 
 1. Tell relevant people you're standing down, for example, CRCC, duty manager or incident commander.

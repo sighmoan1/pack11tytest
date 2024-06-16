@@ -1,7 +1,9 @@
 ---
 title: Identifying people's needs at an incident
+order: 6
+tags: playbook
 nav:
-  order: 7
+  order: 6
 ---
 
 Use the following prompts to check what people might need help with. Use your training and experience to select the appropriate questions.
