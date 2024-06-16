@@ -1,8 +1,54 @@
-ul {
-	margin-top: 0;
-	padding-left: calc(1rem + 1vw);
+$font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Mixin for font styles
+@mixin font-style($size, $line-height, $bold: false) {
+  font-family: $font-family-primary;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: if($bold, bold, normal);
 }
 
-li {
-	margin-top: calc(var(--gap) / 4);
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  li {
+	margin: 0 0 0 1.5em;
+  }
+  
+ol {
+	margin-bottom: 1rem;
+	padding-left: 1.5rem;
+  
+	li {
+	  margin-bottom: 0.5rem;
+	  @include font-style(16px, 24px);
+	}
 }
+
+main {
+// New styles using the mixin
+ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    @include font-style(16px, 24px);
+
+    // Custom bullet points for unordered lists
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 8px;
+      background-color: var(--theme-color);
+      border-radius: 50%;
+    }
+  }
+}
+} 
+

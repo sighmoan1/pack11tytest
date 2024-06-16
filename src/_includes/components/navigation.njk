@@ -1,16 +1,19 @@
-<nav>
-{% set navPages = collections.all | eleventyNavigation %}
-{% macro renderNavListItem(entry) -%}
-<li{% if entry.url == page.url %} class="current"{% endif %}>
-  <a href="{{ entry.url }}">{{ entry.title }}</a>
-</li>
-{%- endmacro %}
-
-
-<details>
-<summary>Menu</summary>
-<ul>
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-</ul>
-</details>
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<label for="menu-toggle" class="menu">
+    <div></div>
+    <div></div>
+    <div></div>
+    <span>MENU</span>
+</label>
+<nav role="navigation" class="cluster nav-menu">
+    <ul>
+        {% for item in collections.navigation %}
+            {% set link_title = item.data.nav.title or item.data.title %}
+            <li
+                class="{{ link_title | slugify }}{% if item.url == '/' and page.url == '/' or (item.url != '/' and item.url in page.url) %}current{% endif %}"
+            >
+                <a href="{{ item.data.nav.away or item.url }}">{{ link_title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 </nav>

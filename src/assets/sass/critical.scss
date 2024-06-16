@@ -1,6 +1,5 @@
 // ITCSS Layer 1: Settings (global variables, config switches)
 @import '01_settings/global_custom_properties';
-@import '01_settings/colours.scss';
 
 // ITCSS Layer 2: Tools (default mixins and functions)
 @import '02_tools/functions';
@@ -19,10 +18,14 @@
 @import '04_base/main';
 @import '04_base/mark';
 @import '04_base/sub_sup';
+@import '04_base/menu';
+@import '04_base/details';
+
 
 // ITCSS Layer 5: Objects (cosmetic-free design patterns)
 @import '05_objects/layout';
 @import '05_objects/markdown-classes';
+
 
 // ITCSS Layer 6: Components (designed components, chunks of UI)
 @import '06_components/header';
@@ -30,6 +33,7 @@
 @import '06_components/logo';
 @import '06_components/news';
 @import '06_components/video';
+@import '06_components/onpagenav';
 
 // ITCSS Layer 7: Trumps (helpers and overrides)
 @import '07_trumps/visually-hidden';

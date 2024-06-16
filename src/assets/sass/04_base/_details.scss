@@ -1,0 +1,60 @@
+$primary-color: #183251; // Replace with your desired color
+$accent-color: var(--theme-color); // Red color for the bullets
+
+// Mixin for font styles
+@mixin font-style($size, $line-height, $bold: false) {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: if($bold, bold, normal);
+}
+
+// Styles for <details> and <summary>
+details {
+  border: 1px solid $primary-color;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+summary {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  @include font-style(16px, 24px, true);
+}
+
+details[open] summary::after {
+  transform: rotate(-180deg); // Rotate arrow when open
+}
+
+// Styles for the content inside <details>
+details > div {
+  padding: 1rem;
+  background-color: white;
+  border-top: 1px solid $primary-color;
+}
+
+// Custom bullet points for unordered lists inside <details>
+details ul {
+   margin-top: 1rem;
+margin-bottom: 1rem;
+  padding-left: 1.5rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    @include font-style(16px, 24px);
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 8px;
+      background-color: $accent-color;
+      border-radius: 50%;
+    }
+  }
+}

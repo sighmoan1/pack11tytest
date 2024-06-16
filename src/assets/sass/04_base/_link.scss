@@ -1,17 +1,38 @@
-// external links
-a[href^="https://"]:not([href^="https://pack11ty.dev"]):not(.button):not(.install) {
-	padding-right: 15px;
-	background-position: top 0.1em right;
-	background-size: 12px 12px;
-	background-repeat: no-repeat;
+$font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-	background-image: url('/images/external-link-blue.svg');
-
-	footer & {
-		background-image: url('/images/external-link-white.svg');
-	}
+// Mixin for font styles
+@mixin font-style($size, $line-height, $bold: false) {
+  font-family: $font-family-primary;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: if($bold, bold, normal);
 }
 
+// Base styles for links
 a {
-	color: var(--theme-color);
+  color: #1D70B8;
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+
+  &:hover,
+  &:focus {
+    text-decoration-thickness: 3px;
+    color: #003078;
+  }
+}
+
+// External links
+a[href^="https://"]:not([href^="https://pack11ty.dev"]):not(.button):not(.install) {
+  padding-right: 15px;
+  background-position: top 0.1em right;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+
+  background-image: url('/images/external-link-blue.svg');
+  
+  footer & {
+    background-image: url('/images/external-link-white.svg');
+  }
 }

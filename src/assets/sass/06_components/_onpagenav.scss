@@ -1,0 +1,42 @@
+$font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Mixin for font styles
+@mixin font-style($size, $line-height, $bold: false) {
+  font-family: $font-family-primary;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: if($bold, bold, normal);
+}
+
+// Styles for the navigation list component
+.onpagenav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 0.75rem 1rem; // Adjust padding to be more compact
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large; // Changed to 'large' for closer match
+    cursor: pointer;
+    
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    a {
+      @include font-style(18px, 28px, false); // Adjusted size and line-height
+      color: black;
+      text-decoration: none;
+      flex-grow: 1;
+    }
+
+    .arrow {
+      font-size: 3rem; // Adjusted to be smaller
+      color: #000; // Changed color to black
+    }
+  }
+}

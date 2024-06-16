@@ -1,7 +1,18 @@
+$font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Mixin for font styles
+@mixin font-style($size, $line-height, $bold: false) {
+  font-family: $font-family-primary;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: if($bold, bold, normal);
+}
+
 p {
-	margin-bottom: 0;
+  @include font-style(16px, 24px);
+  margin-bottom: 0;
 }
 
 article > * + * {
-	margin-block-start: var(--gap);
+  margin-block-start: var(--gap);
 }

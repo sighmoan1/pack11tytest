@@ -1,49 +1,92 @@
-h1 {
-	margin-top: 0;
-	padding-top: 0.2rem;
-	padding-bottom: 0.2rem;
-	font-size: 2rem;
-	border-bottom: 2px solid var(--theme-color);
+$font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Mixin for font styles
+@mixin font-style($size, $line-height, $bold: false) {
+  font-family: $font-family-primary;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: if($bold, bold, normal);
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-block: 0;
+// Heading styles
+h1 {
+  margin-top: 0;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  @include font-style(30px, 36px, true);
+
+  @media (min-width: 768px) {
+    @include font-style(44px, 50px, true);
+  }
+
+  @media (min-width: 1024px) {
+    @include font-style(44px, 50px, true);
+  }
+}
+
+h2 {
+  margin-block: 0;
+  @include font-style(26px, 32px, true);
+
+  @media (min-width: 768px) {
+    @include font-style(28px, 32px, true);
+  }
+
+  @media (min-width: 1024px) {
+    @include font-style(28px, 32px, true);
+  }
+}
+
+h3 {
+  margin-block: 0;
+  @include font-style(20px, 28px, true);
+
+  @media (min-width: 768px) {
+    @include font-style(24px, 32px, true);
+  }
+
+  @media (min-width: 1024px) {
+    @include font-style(24px, 32px, true);
+  }
+}
+
+h4, h5, h6 {
+  margin-block: 0;
+  @include font-style(14px, 20px, true);
+
+  @media (min-width: 768px) {
+    @include font-style(18px, 28px, true);
+  }
+
+  @media (min-width: 1024px) {
+    @include font-style(18px, 28px, true);
+  }
 }
 
 // Anchor links
-// Based on https://smolcss.dev/#smol-article-anchors
 .heading-wrapper {
-	margin-top: calc(2 * var(--gap));
-	margin-bottom: 0;
-	border-bottom: 1px solid var(--theme-color);
-
-	display: grid;
-	// anchor link on the far right for long wrapping headings
-	grid-template-columns: minmax(auto, max-content) min-content;
-	gap: calc(var(--gap) / 2);
-	align-items: baseline;
+  margin-top: calc(2 * var(--gap));
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: minmax(auto, max-content) min-content;
+  gap: calc(var(--gap) / 2);
+  align-items: baseline;
 }
 
 .deeplink {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 
-	&:link,
-	&:visited {
-		padding: 0 0.75rem;
-		border-radius: 100%;
+  &:link,
+  &:visited {
+    padding: 0 0.75rem;
+    border-radius: 100%;
+    color: var(--color-meta);
+    text-decoration: none;
+  }
 
-		color: var(--color-meta);
-		text-decoration: none;
-	}
-
-	&:hover,
-	&:focus {
-		color: var(--theme-color-contrast);
-
-		background-color: var(--theme-color);
-	}
+  &:hover,
+  &:focus {
+    color: var(--theme-color-contrast);
+    background-color: var(--theme-color);
+  }
 }

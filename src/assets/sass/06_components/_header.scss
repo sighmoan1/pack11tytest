@@ -1,32 +1,5 @@
-header>* {
+header > * {
 	align-items: baseline;
-
-}
-
-.navbar {
-	position: sticky;
-	top: 0;
-	z-index: 100; // Ensure it's above other content
-
-	details {
-		position: relative; // Anchor for the dropdown
-	}
-
-	summary {
-		cursor: pointer;
-	}
-
-	ul {
-		position: absolute;
-		background-color: #fff; // Or any color fitting your design
-		width: 100%; // Or adjust as needed
-		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); // Optional: for dropdown shadow
-		z-index: 101; // Ensure it's above the sticky navbar itself
-	}
-
-	li {
-		list-style-type: none;
-	}
 }
 
 .sitelogo-parent {
@@ -41,68 +14,72 @@ header>* {
 	color: var(--theme-color-contrast);
 	background-color: var(--theme-color);
 	border-bottom: 2px solid var(--theme-color);
+
+	a {
+		// text-decoration: none;
+		color: var(--theme-color-contrast);
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
 }
 
-.sitelogo a {
-	text-decoration: none;
-	color: var(--theme-color-contrast);
-}
+nav {
+	--gap: 0.5rem;
 
-.sitelogo a:hover {
-	text-decoration: underline;
-}
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
 
-details>summary {
-	padding: 0.2rem 1rem;
-	font-size: 1.5rem;
-	font-weight: bold;
-	color: var(--theme-color-contrast);
-	background-color: var(--theme-color);
-	border: none;
-	cursor: pointer;
-	outline: none;
-}
+	li {
+		flex-grow: 1;
+		text-align: center;
+	}
 
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
+	a {
+		display: block;
+		padding: 0.1em 0.5em;
+		color: var(--theme-color);
+		background-color: #ddd;
+		border: 2px solid #ddd;
+	}
 
-nav ul li {
-	margin: 5px 0;
-}
+	.githubstars {
+		padding: 0.1em;
+		line-height: 1;
+	}
 
-nav ul li a {
-	color: var(--theme-color);
-	text-decoration: none;
-	padding: 0.2rem 1rem;
-	display: block;
-}
+	a:hover {
+		color: var(--theme-color-contrast);
+		background-color: var(--theme-color);
+		border-color: var(--theme-color);
+	}
 
-nav ul li a:hover {
-	text-decoration: underline;
-}
+	.current {
+		a {
+			text-decoration: none;
+			font-weight: bold;
+			border-color: var(--theme-color);
+		}
 
-nav .current a {
-	border-color: var(--theme-color);
-	font-weight: bold;
-}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
 
-nav .offline {
-	display: none;
-}
+	.offline {
+		display: none;
 
-nav .offline a {
-	color: #8a6d3b;
-	background-color: #fcf8e3;
-	border-color: #faebcc;
-}
+		a {
+			color: #8a6d3b;
+			background-color: #fcf8e3;
+			border-color: #faebcc;
+		}
 
-body.offline nav .offline {
-	display: block;
-}
-
-header>details>summary {
-	align-self: center;
+		body.offline & {
+			display: block;
+		}
+	}
 }
