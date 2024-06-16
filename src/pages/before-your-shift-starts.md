@@ -14,3 +14,5 @@ Consider whether you're in the right physical and mental shape to respond. If yo
 4. tell people you live with that you may be leaving the house without notice
 5. charge your phone and leave it switched on
 6. if you're on a rota with a specific partner, agree who will respond to any CRCC requests to deploy
+
+[Next](/starting-your-deployment)

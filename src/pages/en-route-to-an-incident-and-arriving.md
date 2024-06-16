@@ -14,3 +14,6 @@ nav:
     * if there are adequate precautions to protect those people and anything further that would ensure their safety
 6. Report to the control point and get briefed by the incident commander or operational team leader (OTL). If the responders have left check for a handover document.
 7. Ask the incident commander to introduce you to service users. If you cannot locate service users contact CRCC or the duty manager.
+
+[Back](/at-your-home-base-preparing-to-deploy)
+[Next](/providing-assistance-at-an-incident)

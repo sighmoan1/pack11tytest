@@ -17,3 +17,6 @@ nav:
 7. Photograph all What next? forms; complete incident report forms and send; record any accidents or near-misses on Datix (app on Redroom). [Click here to go to the Datix form](https://brc.gateway.prod-uk.datixcloudiq.co.uk/capture/?action=newdif1&module=INC).
 8. If you need support or counselling call the confidential helpline operated by Health Assured on
 <a href="tel:08000305180">0800 030 5180</a>.
+
+[Back](/identifying-peoples-needs-at-an-incident)
+[Home](/index)

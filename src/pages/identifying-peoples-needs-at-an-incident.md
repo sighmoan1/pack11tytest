@@ -80,3 +80,6 @@ Where are you going to stay?</summary>
 <li>Is there any additional information that you need?</li>
 <li>Would you like our leaflet and feedback card?</li>
 </details>
+
+[Back](/providing-assistance-at-an-incident)
+[Next](/leaving-an-incident-and-post-deployment)

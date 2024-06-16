@@ -21,3 +21,6 @@ nav:
 6. Record useful information and actions taken including times, ETAs and contact numbers for insurance or other services on a 'What next?' form. Record contact details of service users for follow-ups.
 7. Be alert to any safeguarding issues. Contact CRCC or report what you've observed direct to the safeguarding team: <a href="tel:03000040377">0300 004 0377</a>.
 8. Use the incident log to keep track of any support, advice or items given.
+
+[Back](/en-route-to-an-incident-and-arriving)
+[Next](/identifying-peoples-needs-at-an-incident)
