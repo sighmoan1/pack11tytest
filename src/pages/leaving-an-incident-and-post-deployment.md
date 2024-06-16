@@ -19,4 +19,4 @@ nav:
 <a href="tel:08000305180">0800 030 5180</a>.
 
 [Back](/identifying-peoples-needs-at-an-incident)
-[Home](/index)
+[Home](/)
