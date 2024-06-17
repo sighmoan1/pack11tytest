@@ -17,4 +17,27 @@ Consider whether you're in the right physical and mental shape to respond. If yo
 5. charge your phone and leave it switched on
 6. if you're on a rota with a specific partner, agree who will respond to any CRCC requests to deploy
 
-[Next](/starting-your-deployment)
+<style>
+.backnext-link {
+  display: flex;
+  align-items: center;
+}
+
+.backnext-link {
+    padding-bottom: 1.25rem;
+}
+
+.backnext-icon {
+  width: 24px;
+  height: 24px;
+  fill: rgb(38, 38, 38); /* Use the color from the original inline style */
+  margin-right: 8px; /* Adjust the spacing between the icon and text as needed */
+}
+</style>
+
+<a href="/starting-your-deployment" class="backnext-link">
+  <svg viewBox="0 0 24 24" class="backnext-icon">
+    <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"></path>
+  </svg>
+  Next
+</a>

@@ -24,5 +24,35 @@ nav:
 7. Be alert to any safeguarding issues. Contact CRCC or report what you've observed direct to the safeguarding team: <a href="tel:03000040377">0300 004 0377</a>.
 8. Use the incident log to keep track of any support, advice or items given.
 
-[Back](/en-route-to-an-incident-and-arriving)
-[Next](/identifying-peoples-needs-at-an-incident)
+<style>
+.backnext-link {
+  display: flex;
+  align-items: center;
+}
+
+.backnext-link {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1.25rem;
+}
+
+.backnext-icon {
+  width: 24px;
+  height: 24px;
+  fill: rgb(38, 38, 38); /* Use the color from the original inline style */
+  margin-right: 8px; /* Adjust the spacing between the icon and text as needed */
+}
+</style>
+
+<a href="/en-route-to-an-incident-and-arriving" class="backnext-link">
+  <svg viewBox="0 0 24 24" class="backnext-icon">
+<path d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.58 5.59L12 20l-8-8 8-8z"></path>
+  </svg>
+  Back
+</a>
+
+<a href="/identifying-peoples-needs-at-an-incident" class="backnext-link">
+  <svg viewBox="0 0 24 24" class="backnext-icon">
+    <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"></path>
+  </svg>
+  Next
+</a>

@@ -1,0 +1,16 @@
+.backnext-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .backnext-link {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1.25rem;
+  }
+  
+  .backnext-icon {
+    width: 24px;
+    height: 24px;
+    fill: rgb(38, 38, 38); /* Use the color from the original inline style */
+    margin-right: 8px; /* Adjust the spacing between the icon and text as needed */
+  }
