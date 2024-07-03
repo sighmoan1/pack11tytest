@@ -1,11 +1,11 @@
-@import 'every_layout/sidebar';
+// @import 'every_layout/sidebar';
 @import 'every_layout/cluster';
 @import 'every_layout/stack';
 
 // container for the whole page
 .page {
 	margin: var(--gap);
-
+	max-width: 700px;
 	display: flex;
 	flex-direction: column;
 

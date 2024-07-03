@@ -10,7 +10,7 @@ https://absolutely.every-layout.dev/layouts/cluster/
 .cluster > * {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	margin: calc(var(--gap) / 2 * -1);
 }

@@ -47,8 +47,9 @@ $font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: underline;
 }
 
-/* Media query for mobile view */
-@media (max-width: 600px) {
+/* Media query for mobile view  (made permanent)*/
+
+/* @media (max-width: 600px) { */
   .menu {
     display: flex;
   }
@@ -67,4 +68,4 @@ $font-family-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
   .menu-toggle:checked + .menu + .nav-menu {
     display: flex;
   }
-}
+/* } */
