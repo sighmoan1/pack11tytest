@@ -24,6 +24,8 @@ nav:
 7. Be alert to any safeguarding issues. Contact CRCC or report what you've observed direct to the safeguarding team: <a href="tel:03000040377">0300 004 0377</a>.
 8. Use the incident log to keep track of any support, advice or items given.
 
+<script type="text/javascript" src="https://redcross.jotform.com/jsform/242132208445044"></script>
+
 <style>
 .backnext-link {
   display: flex;
