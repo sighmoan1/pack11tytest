@@ -7,4 +7,4 @@ _site
 # secret data
 .env
 
-/android/gradle.properties
+**/gradle.properties
