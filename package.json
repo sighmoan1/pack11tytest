@@ -60,6 +60,10 @@
 		"workbox-recipes": "^7.0.0"
 	},
 	"dependencies": {
+		"@capacitor/android": "^6.1.2",
+		"@capacitor/cli": "^6.1.2",
+		"@capacitor/core": "^6.1.2",
+		"@capacitor/ios": "^6.1.2",
 		"mermaid": "^10.9.0",
 		"moment": "^2.30.1",
 		"toastify-js": "^1.12.0"

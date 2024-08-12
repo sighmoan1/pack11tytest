@@ -39,7 +39,7 @@ nav:
 }
 </style>
 
-<a href="/identifying-peoples-needs-at-an-incident" class="backnext-link">
+<a href="/identifying-peoples-needs-at-an-incident/index.html" class="backnext-link">
   <svg viewBox="0 0 24 24" class="backnext-icon">
 <path d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.58 5.59L12 20l-8-8 8-8z"></path>
   </svg>

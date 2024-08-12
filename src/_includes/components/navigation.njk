@@ -12,7 +12,7 @@
             <li
                 class="{{ link_title | slugify }}{% if item.url == '/' and page.url == '/' or (item.url != '/' and item.url in page.url) %}current{% endif %}"
             >
-                <a href="{{ item.data.nav.away or item.url }}">{{ link_title }}</a>
+                <a href="{{ item.data.nav.away or item.url }}index.html">{{ link_title }}</a>
             </li>
         {% endfor %}
     </ul>
