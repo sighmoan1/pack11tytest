@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97426880806",
+    "project_id": "volunteer-playbook",
+    "storage_bucket": "volunteer-playbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97426880806:android:b1b48585790eef362129e7",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF_tCy4zpRrReY4j6abPUtXdHbqnVkpHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

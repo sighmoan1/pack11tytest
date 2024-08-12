@@ -6,3 +6,5 @@ _site
 
 # secret data
 .env
+
+gradle.properties
