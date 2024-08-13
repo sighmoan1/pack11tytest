@@ -16,7 +16,7 @@ nav:
     * if there are adequate precautions to protect those people and anything further that would ensure their safety
 6. Report to the control point and get briefed by the incident commander or operational team leader (OTL). If the responders have left check for a handover document.
 7. Ask the incident commander to introduce you to service users. If you cannot locate service users contact CRCC or the duty manager.
-
+<!--
 <details>
 <summary>Click here for further details</summary>
 
@@ -77,7 +77,7 @@ Duty of care is with the CRCC and/or BRC DM.
 * Personal protective equipment – put on Hi-Vis jacket & know where helmets are.
 * If your vehicle carries radios, consider switching them on (on the same channel) and carry them with you along with the Vehicle mobile.
 </details>
-
+-->
 
 <style>
 .backnext-link {
