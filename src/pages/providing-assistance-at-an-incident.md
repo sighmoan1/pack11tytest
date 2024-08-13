@@ -9,7 +9,7 @@ nav:
 1. Remember your aim is to help service users come to terms with the crisis and start to take control of their own situation.
 2. Explain to service users how you can help.
 3. Move service users to the safety and shelter of the ER vehicle if appropriate. Remember not to be alone with service users in the vehicle unless you're in view of others or the door is open.
-4. Try to establish what their needs are [use the identifying needs prompt](/identifying-peoples-needs-at-an-incident). Remember not all needs are visible and the user may need encouragement and reassurance. Use the CALMER technique.
+4. Try to establish what their needs are [use the identifying needs prompt](/identifying-peoples-needs-at-an-incident/index.html). Remember not all needs are visible and the user may need encouragement and reassurance. Use the CALMER technique.
 5. If you decide cash assistance is required:
     * it's £45 per day for each child or adult
     * there's a 3-day limit for cash assistance - £135 per person.
