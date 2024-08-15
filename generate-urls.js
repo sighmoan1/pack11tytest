@@ -40,7 +40,7 @@ enable();
 
 pageCache({
 	networkTimoutSeconds: 2,
-	warmCache: ['/', '/documentation/', '/offline/', '/emergencies','/images/', '/lifecycle', ${listOfURLs.map((url) => `'${url}'`).join(', ')}],
+	warmCache: [${listOfURLs.map((url) => `'${url}'`).join(', ')}],
 });
 
 staticResourceCache({

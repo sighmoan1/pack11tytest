@@ -11,7 +11,7 @@ enable();
 
 pageCache({
 	networkTimoutSeconds: 2,
-	warmCache: ['/', '/documentation/', '/offline/', '/emergencies','/images/', '/lifecycle', '/at-your-home-base-preparing-to-deploy/', '/before-your-shift-starts/', '/en-route-to-an-incident-and-arriving/', '/identifying-peoples-needs-at-an-incident/', '/incident-report-form/', '/', '/leaving-an-incident-and-post-deployment/', '/providing-assistance-at-an-incident/', '/starting-your-deployment/'],
+	warmCache: ['/at-your-home-base-preparing-to-deploy/', '/before-your-shift-starts/', '/en-route-to-an-incident-and-arriving/', '/identifying-peoples-needs-at-an-incident/', '/incident-report-form/', '/', '/leaving-an-incident-and-post-deployment/', '/providing-assistance-at-an-incident/', '/starting-your-deployment/'],
 });
 
 staticResourceCache({
