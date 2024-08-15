@@ -1,5 +1,5 @@
 ---
-title: How to respond safely and effectively to a kitten emergency
+title: How to respond safely and effectively to an emergency
 layout: homepage.njk
 ---
 
