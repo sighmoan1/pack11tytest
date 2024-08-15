@@ -29,34 +29,45 @@ console.log('URLs to be cached:', listOfURLs.join(', '));
 
 const serviceWorkerContent = `
 import {
-	offlineFallback,
-	pageCache,
-	staticResourceCache,
-	imageCache,
+    offlineFallback,
+    pageCache,
+    staticResourceCache,
+    imageCache,
 } from 'workbox-recipes';
 
 import { enable } from 'workbox-navigation-preload';
 enable();
 
+const urlsToCache = [
+    ${listOfURLs.map((url) => `'${url}'`).join(', ')}
+];
+
+console.log('Caching the following URLs:', urlsToCache);
+
 pageCache({
-	networkTimoutSeconds: 2,
-	warmCache: [${listOfURLs.map((url) => `'${url}'`).join(', ')}],
+    networkTimoutSeconds: 2,
+    warmCache: urlsToCache,
 });
 
 staticResourceCache({
-	warmCache: self.__WB_MANIFEST,
+    warmCache: self.__WB_MANIFEST,
 });
 
 imageCache({
-	maxEntries: 100,
-	maxAgeSeconds: 60 * 60 * 24 * 90,
-	warmCache: ['./images/logo-192px.png', './images/logo-512px.png'],
+    maxEntries: 100,
+    maxAgeSeconds: 60 * 60 * 24 * 90,
+    warmCache: ['./images/logo-192px.png', './images/logo-512px.png'],
 });
 
 offlineFallback({
-	pageFallback: '/offline/fallback.html',
-	imageFallback: '/offline/fallback.svg',
+    pageFallback: '/offline/fallback.html',
+    imageFallback: '/offline/fallback.svg',
+});
+
+urlsToCache.forEach(url => {
+    console.log(\`Attempting to cache URL: \${url}\`);
 });
 `;
 
 fs.writeFileSync('src/assets/js/service-worker.js', serviceWorkerContent);
+console.log('Service worker file has been generated.');
