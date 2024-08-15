@@ -1,6 +1,5 @@
 
 import {
-    offlineFallback,
     pageCache,
     staticResourceCache,
     imageCache,
@@ -28,11 +27,6 @@ imageCache({
     maxEntries: 100,
     maxAgeSeconds: 60 * 60 * 24 * 90,
     warmCache: ['./images/logo-192px.png', './images/logo-512px.png'],
-});
-
-offlineFallback({
-    pageFallback: '/offline/fallback.html',
-    imageFallback: '/offline/fallback.svg',
 });
 
 urlsToCache.forEach(url => {
